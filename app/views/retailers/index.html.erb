@@ -1,6 +1,6 @@
 
 <html> 
-  <body>
+ 
     <div class = "table-responsive">
         <table class='table table-striped'>
             <%= link_to "New", new_retailer_path, :class => 'btn btn-primary'  %>
@@ -9,9 +9,11 @@
                 <th>Code</th>
                 <th>Shop Name</th>
                 <th>Retailer Name</th>
-                <th>Mobile Number</th>
+                <th>Mobile Number1</th>
+                <th>Mobile Number2</th>
                 <th>Address</th>
                 <th>Status</th>
+                <th></th>
             </tr>
             <% @retailers.each do |retailer| %>    
                 <tr>
@@ -19,11 +21,13 @@
                     <td><%= retailer.shop_name %></td>
                     <td><%= retailer.retialer_name %></td>
                     <td><%= retailer.mobile_number %></td>
+                    <td><%= retailer.mobile_number %></td>
                     <td><%= retailer.address %></td>
                     <td><%= retailer.status %></td>   
+                    <td><%= link_to "Edit", edit_retailer_path(retailer) %></td>
                 </tr>    
             <% end %>
         </table>
     </div>
-  </body>
+
 </html> 

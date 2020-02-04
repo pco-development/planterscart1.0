@@ -1,2 +1,4 @@
-<h1>Retailers#edit</h1>
-<p>Find me in app/views/retailers/edit.html.erb</p>
+<%= form_with model: @retailer, url: update_retailer_path do |p| %>
+ 
+    <%= render partial: 'form', locals: {p: p} %>
+ <% end %>

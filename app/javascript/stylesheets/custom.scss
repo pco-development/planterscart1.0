@@ -1,0 +1,240 @@
+body {
+    background: #F1F3FA;
+  }
+  
+  /* Profile container */
+  .profile {
+    margin: 20px 0;
+  }
+  
+  /* Profile sidebar */
+  .profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+  }
+  
+  .profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+  
+  .profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  
+  .profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px red;
+  }
+  
+  .profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+  }
+  
+  .profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+  }
+      
+  .profile-usermenu {
+    margin-top: 30px;
+  }
+  
+  .profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+  }
+  
+  .profile-usermenu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  
+  .profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: green;
+  }
+  
+  .profile-usermenu ul li.active {
+    border-bottom: none;
+  }
+  
+  .profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+  }
+  
+  /* Profile Content */
+  .profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+  }
+  
+  
+  /** 
+   * These are only for nav-colors, not needed at all for the functionality
+   */
+  .navbar-default {
+    background-color: green;
+    border-color: #ee5f5f;
+  }
+  .navbar-default .navbar-brand {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #560000;
+  }
+  .navbar-default .navbar-text {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: violet;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #e82525;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #560000;
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #560000;
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #560000;
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #560000;
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #ee5f5f;
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #ee5f5f;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #ffffff;
+  }
+  .navbar-default .navbar-link {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-link:hover {
+    color: #560000;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #560000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #560000;
+      background-color: #ee5f5f;
+    }
+  }
+  
+  .box {
+    background:#FFF;
+     
+  }
+  .effect
+  {
+        position:relative;
+      -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+              box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      
+  }
+  .effect:before, .effect:after
+  {
+      content:"";
+      position:absolute;
+      z-index:-1;
+      -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+      -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+      box-shadow:0 0 20px rgba(0,0,0,0.8);
+      top:10px;
+      bottom:10px;
+      left:0;
+      right:0;
+      -moz-border-radius:100px / 10px;
+      border-radius:100px / 20px;
+  }
+  .effect:after
+  {
+      right:10px;
+      left:auto;
+      -webkit-transform:skew(8deg) rotate(3deg);
+         -moz-transform:skew(8deg) rotate(3deg);
+          -ms-transform:skew(8deg) rotate(3deg);
+           -o-transform:skew(8deg) rotate(3deg);
+              transform:skew(8deg) rotate(3deg);
+  }

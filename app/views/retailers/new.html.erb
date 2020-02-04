@@ -1,2 +1,5 @@
-<h1>Retailers#new</h1>
-<p>Find me in app/views/retailers/new.html.erb</p>
+
+<%= form_with model: @retailer, url: create_retailer_path do |p| %>
+    <%= render partial: 'form', locals: {p: p} %>    
+ <% end %>
+ 
